@@ -5,7 +5,7 @@ This repository contains the solution for estimating the parameters
 
 ---
 
-## 📐 Model Definition
+## Model Definition
 
 ### **x-equation**
 
@@ -24,7 +24,7 @@ Parameter bounds:
 
 ---
 
-# 🎯 Final Estimated Parameters
+# Final Estimated Parameters
 
 | Parameter | Value |
 |----------|--------|
@@ -35,7 +35,7 @@ Parameter bounds:
 
 ---
 
-# ✨ Final Parametric Equation
+# Final Parametric Equation
 
 ### x(t):
 x(t) = t*cos(0.52359830) − exp(0.02999999*abs(t)) * sin(0.3*t) * sin(0.52359830) + 54.99999819 
@@ -45,7 +45,7 @@ y(t) = 42 + t*sin(0.52359830) + exp(0.02999999*abs(t)) * sin(0.3*t) * cos(0.5235
 
 ---
 
-# 📊 Residual Summary
+# Residual Summary
 
 | Metric | Value |
 |--------|--------|
@@ -57,7 +57,7 @@ These extremely small values indicate an almost perfect match.
 
 ---
 
-# 🧠 Method Overview
+# Method Overview
 
 ### 1. Initial Linear Approximation
 A simplified model (ignoring the oscillatory exponential term) provides initial estimates for θ and X.
@@ -73,7 +73,7 @@ Each observed point is projected onto the final fitted curve by optimizing over 
 
 ---
 
-## ▶️ How to Run the Code
+## How to Run the Code
 
 Install dependencies:
 
@@ -89,7 +89,7 @@ python fit_curve.py
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 | File | Description |
 |------|-------------|
@@ -100,12 +100,14 @@ python fit_curve.py
 
 ---
 
-## ✔ Final Answer (Plain Text Equation)
+## Final Answer (Plain Text Equation)
 
 (t*cos(0.52359830) − exp(0.02999999*abs(t))*sin(0.3*t)*sin(0.52359830) + 54.99999819, 42 + t*sin(0.52359830) + exp(0.02999999*abs(t))*sin(0.3*t)*cos(0.52359830))
 
-## ✔ Final Answer (LaTex Equation)
+## Final Answer (LaTex Equation)
 
 \left(t*\cos(0.52359830)-e^{0.02999999\left|t\right|}\cdot\sin(0.3t)\sin(0.52359830)\ +54.99999819,\;42+\ t*\sin(0.52359830)+e^{0.02999999\left|t\right|}\cdot\sin(0.3t)\cos(0.52359830)\right)
 
+## Contact
+Barkha Verma, devbarkha07@gmail.com
 
