@@ -1,0 +1,31 @@
+Final Fitted Parameters
+-----------------------
+theta (deg): 29.99997248
+theta (rad): 0.52359830
+M:           0.02999999
+X:           54.99999819
+
+Final Parametric Equation (Plain Text)
+--------------------------------------
+x(t) = t*cos(0.52359830)
+       - exp(0.02999999*abs(t)) * sin(0.3*t) * sin(0.52359830)
+       + 54.99999819
+
+y(t) = 42
+       + t*sin(0.52359830)
+       + exp(0.02999999*abs(t)) * sin(0.3*t) * cos(0.52359830)
+
+Compact Equation Form
+---------------------
+(t*cos(0.52359830) 
+ - exp(0.02999999*abs(t))*sin(0.3*t)*sin(0.52359830)
+ + 54.99999819,
+
+ 42 + t*sin(0.52359830)
+ + exp(0.02999999*abs(t))*sin(0.3*t)*cos(0.52359830))
+
+Residual / Error Summary
+------------------------
+Sum L1 Residual:  0.003266
+Mean Residual:    0.000002
+Max Residual:     0.000011
