@@ -108,6 +108,10 @@ python fit_curve.py
 
 \left(t*\cos(0.52359830)-e^{0.02999999\left|t\right|}\cdot\sin(0.3t)\sin(0.52359830)\ +54.99999819,\;42+\ t*\sin(0.52359830)+e^{0.02999999\left|t\right|}\cdot\sin(0.3t)\cos(0.52359830)\right)
 
+## Final Output Plot
+
+![Fitted Curve Plot](fitted_curve_plot.png)
+
 ## Contact
 Barkha Verma, devbarkha07@gmail.com
 
